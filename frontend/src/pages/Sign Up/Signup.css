@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Tenor+Sans&display=swap');
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(../../images/sign_baclground.jpg);
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center;
+  background-attachment: fixed; /* Add this line */
+  animation: fade-in 1s ease-in-out forwards; /* Add the animation */
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.signup-main {
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(193, 174, 247, 0.1);
+}
+
+.signup-section {
+  margin-bottom: 2rem;
+}
+
+.signup-header {
+  text-align: center;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 4); /* Text shadow */
+}
+
+.signup-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.signup-form-wrapper {
+  margin-top: 2rem;
+}
+
+.signup-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 1rem;
+  align-items: center;
+}
+
+.signup-form-group {
+  margin-bottom: 1rem;
+}
+
+.signup-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.signup-input {
+  padding: 0.5rem;
+  border: none; /* Remove border */
+  border-bottom: 1px solid #ccc; /* Add bottom border */
+  font-size: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent; /* Add transparent background */
+  transition: border-bottom-color 0.3s ease; /* Add transition for bottom border */
+}
+
+.signup-input:focus {
+  outline: none; /* Remove outline on focus */
+  border-bottom-color: #000; /* Change bottom border color on focus */
+}
+
+.signup-btn {
+  padding: 1rem 2rem;
+  background-color: #95BDFF; /* Blue background */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+  width: 100%;
+  justify-self: center;
+}
+
+.signup-btn:hover {
+  background-color: #5895f8; /* Darker background on hover */
+  color: #F8E8EE;
+}
+
+.signup-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.signup-footer-text {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.signup-footer-link {
+  color: black;
+  text-decoration: none;
+}
+
+.signup-footer-link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f44336;
+  margin-top: 1rem;
+}
+
+.required {
+  color: #f44336;
+  margin-left: 0.25rem;
+}

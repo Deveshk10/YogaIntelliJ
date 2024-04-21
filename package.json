@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "react-modal": "^3.16.1"
+  }
+}

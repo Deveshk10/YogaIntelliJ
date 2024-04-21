@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Tenor+Sans&display=swap');
+
+.tutorials-container {
+    width: 100vw;
+    height: 100vh;
+    background: url(../../images/blur_bg.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+
+}
+.tutorials-heading {
+    font-size: 54px;
+    margin-left: 100px;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 4); /* Text shadow */
+}
+
+.tutorials-content {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 4px;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.tutorials-content-container {
+    width: 70%;
+}

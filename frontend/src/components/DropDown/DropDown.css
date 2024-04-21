@@ -1,0 +1,76 @@
+#pose-dropdown-btn:hover {
+    border-color: white;
+}
+/* #pose-dropdown-btn:active {
+    background-color: white;
+} */
+#pose-dropdown-btn {
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.dropdown-container {
+    padding-bottom: 70px;
+    padding-Top: 70px;
+    display: flex;
+    justify-content: center;
+    color: white
+}
+#pose-dropdown-btn:focus {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+#pose-dropdown-btn:focus-within {
+    border-color: white;
+}
+.dropdown-option {
+    background: url('../../utils/pose_images/chair.png');
+}
+
+.dropdown-custom-menu {
+    overflow: scroll;
+    height: 40vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.dropdown-custom-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-item-container {
+    width: 400px;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-item-1 {
+    margin: 10px;
+}
+.dropdown-img {
+    width: 80px;
+    height: 80px;
+}
+
+#pose-dropdown-btn {
+    width: 400px;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+}
+
+.dropdown-option {
+    background: url('../../utils/pose_images/chair.png');
+    color: white; /* Set the text color for dropdown options to white */
+}
+
+.dropdown-container {
+    padding-bottom: 70px;
+    padding-top: 70px; /* 'T' in 'Top' should be capitalized */
+    display: flex;
+    justify-content: center;
+    color: white; /* Set the text color for dropdown container to white */
+}

@@ -1,0 +1,29 @@
+.instructions-list {
+    width: 40%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+.instruction {
+
+    margin: 10px;
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.instructions-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.pose-demo-img {
+    height: 400px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
